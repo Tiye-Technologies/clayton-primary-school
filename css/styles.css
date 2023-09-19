@@ -1,0 +1,120 @@
+/* === Styles reset === */
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #17a2b8;
+    --bs-primary: #17a2b8;
+    --secondary-color: #00141c;
+    --catch-color: #6f63ad;
+    scroll-behavior: smooth;
+}
+body {}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0.5rem;
+    font-family: "Handlee", cursive;
+}
+
+.pr-5, .px-5 {
+    padding-right: 3rem !important;
+}
+.pr-2, .px-2 {
+    padding-right: 0.5rem !important;
+}
+
+.btn-primary {
+    --bs-btn-bg: var(--primary-color);
+    --bs-btn-border-color: var(--primary-color);
+    --bs-btn-hover-bg: var(--primary-color);
+    --bs-btn-hover-border-color: var(--primary-color);
+    --bs-btn-active-bg: var(--primary-color);
+    --bs-btn-active-border-color: var(--primary-color);
+}
+.btn-secondary {
+    --bs-btn-bg: var(--secondary-color);
+    --bs-btn-border-color: var(--secondary-color);
+    --bs-btn-hover-bg: var(--secondary-color);
+    --bs-btn-hover-border-color: var(--secondary-color);
+    --bs-btn-active-bg: var(--secondary-color);
+    --bs-btn-active-border-color: var(--secondary-color);
+    color: #fff;
+}
+.btn-outline-secondary {
+    --bs-btn-color: var(--secondary-color);
+    --bs-btn-border-color: var(--secondary-color);
+    --bs-btn-hover-bg: var(--secondary-color);
+    --bs-btn-hover-border-color: var(--secondary-color);
+    --bs-btn-active-bg: var(--secondary-color);
+    --bs-btn-active-border-color: var(--secondary-color);
+    --bs-btn-disabled-color: var(--secondary-color);
+    --bs-btn-disabled-border-color: var(--secondary-color);
+}
+.btn-outline-secondary:hover {
+    color: #fff;
+}
+
+.bg-primary {
+    background-color: #17a2b8 !important;
+}
+
+.section-title {
+    position: relative;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+.section-title span {
+    position: relative;
+    background: #ffffff;
+    z-index: 1;
+} 
+.section-title::before {
+    position: absolute;
+    content: "";
+    top: 10px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #17a2b8;
+}
+
+/* === Navbar === */
+#header {
+}
+
+/* === Home === */
+#home {
+    padding: 100px 0;
+}
+
+/* === About === */
+#about {
+}
+
+/* === Services === */
+#services {
+}
+
+/* === Portfolio === */
+#portfolio {
+}
+
+/* === Testimonials === */
+#testimoninials {
+    height: 100vh;
+    background-color: cadetblue;
+}
+
+/* === Contact === */
+#contact {
+}
+
+/* === Footer === */
+#footer {
+}
