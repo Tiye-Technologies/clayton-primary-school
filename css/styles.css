@@ -16,8 +16,11 @@
 body {}
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    margin-bottom: 0.5rem;
-    font-family: "Handlee", cursive;
+    font-family: 'Concert One', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
 }
 
 .pr-5, .px-5 {
