@@ -15,7 +15,7 @@
 }
 body {}
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .hero-text {
     font-family: 'Concert One', cursive;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'League Spartan', sans-serif;
@@ -364,48 +364,39 @@ a.back-to-top{
     align-items: center;
     justify-content: center;
     font-size: 25px;
-}.back-to-top {
+}
+.back-to-top {
     position: fixed;
-    width: 3rem;
-    height: 3rem;
-    right: 1.875rem;
-    bottom: 1.875rem;
+    width: 2.3rem;
+    height: 2.3rem;
+    right: 1rem;
+    bottom: 1rem;
     z-index: 9999;
     background-color: var(--primary-color);
     border-radius: 50%;
 }
-
-/* === Navbar === */
-#header {
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
 }
-
-/* === Home === */
 #home {
     padding: 100px 0;
 }
 
-/* === About === */
-#about {
+.hero-logo {
+  display: none;
 }
 
-/* === Services === */
-#services {
-}
-
-/* === Portfolio === */
-#portfolio {
-}
-
-/* === Testimonials === */
-#testimoninials {
-    height: 100vh;
-    background-color: cadetblue;
-}
-
-/* === Contact === */
-#contact {
-}
-
-/* === Footer === */
-#footer {
+@media (max-width: 991.98px) {
+  .hero-logo {
+    display: block;
+    margin-left: calc(50% - 80px);
+    margin-bottom: 1rem;
+  }
+  #home {
+    height: 200% !important;
+  }
+  /* .navbar-expand-lg .navbar-brand {
+      padding-top: 1.2rem;
+      padding-bottom: 1.2rem;
+  } */
 }
